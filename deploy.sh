@@ -14,7 +14,6 @@ sudo apt install apache2 -y
 clear
 echo "Creating the website folder..."
 sudo mkdir /var/www/landing
-cd /var/www/landing
 
 # move the cloned folder
 clear
