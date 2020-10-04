@@ -20,7 +20,7 @@ cd /var/www/landing
 clear
 echo "Moving the cloned website files..."
 sudo mv landing/* /var/www/landing/
-sudo rm -rf ./
+sudo rm -rf ../01-AdministrasiServer-ApacheDeployment
 
 # copy the default virtualhost page conf
 clear
